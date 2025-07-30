@@ -32,11 +32,11 @@ public class MicroserviceTemplateApplication {
     SpringApplication.run(MicroserviceTemplateApplication.class, args);
   }
 
-  /** Register shutdown hook to listen for termination signal. */
-  @PreDestroy
-  public void tearDown() {
-    // Clean up resources on shutdown
-    logger.info(MicroserviceTemplateApplication.class.getSimpleName() + ": received SIGTERM.");
-    // Flush async logs if needed - current Logback config does not buffer logs
-  }
+//  /** Register shutdown hook to listen for termination signal. */
+//  @PreDestroy
+//  public void tearDown() {
+//    // Clean up resources on shutdown
+//    logger.info(MicroserviceTemplateApplication.class.getSimpleName() + ": received SIGTERM.");
+//    // Flush async logs if needed - current Logback config does not buffer logs
+//  }
 }
