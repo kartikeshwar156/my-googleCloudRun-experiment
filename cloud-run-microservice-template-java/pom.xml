@@ -33,6 +33,10 @@ limitations under the License.
     <url/>
   </scm>
 
+  <properties>
+    <java.version>21</java.version>
+  </properties>
+
 <!--  <properties>-->
 <!--    <maven.compiler.target>17</maven.compiler.target>-->
 <!--    <maven.compiler.source>17</maven.compiler.source>-->
@@ -57,9 +61,7 @@ limitations under the License.
 <!--    </dependencies>-->
 <!--  </dependencyManagement>-->
 
-  <properties>
-    <java.version>21</java.version>
-  </properties>
+
 
   <dependencies>
     <dependency>
@@ -87,14 +89,15 @@ limitations under the License.
 <!--      <scope>runtime</scope>-->
 <!--      <optional>true</optional>-->
 <!--    </dependency>-->
+    
     <!-- Provides Pretty Printed JSON logs -->
-    <dependency>
-      <groupId>ch.qos.logback.contrib</groupId>
-      <artifactId>logback-jackson</artifactId>
-      <version>0.1.5</version>
-      <scope>runtime</scope>
-      <optional>true</optional>
-    </dependency>
+<!--    <dependency>-->
+<!--      <groupId>ch.qos.logback.contrib</groupId>-->
+<!--      <artifactId>logback-jackson</artifactId>-->
+<!--      <version>0.1.5</version>-->
+<!--      <scope>runtime</scope>-->
+<!--      <optional>true</optional>-->
+<!--    </dependency>-->
 
     <dependency>
       <groupId>com.squareup.okhttp3</groupId>
